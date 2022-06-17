@@ -6,7 +6,8 @@
     use MongoDB\Driver\ServerApi;
     $serverApi = new ServerApi(ServerApi::V1);
     $client = new MongoDB\Client(
-        'mongodb+srv://Aryan432:YxI5XJo8Y3XWRpgK@cluster0.fdkmm.mongodb.net/?retryWrites=true&w=majority', [], ['serverApi' => $serverApi]);
+        //Address to store in mongo db
+  ////===========================================================================================
         $db = $client->Hayatt;
 
         $collection = $db->Contact;
